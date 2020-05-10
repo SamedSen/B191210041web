@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<title>Hakkimda</title>
+</head>
+
+<link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Boorstrap css dosyası çağrıldı -->
+
+
+<style>
+
+body{
+  background:f5f8fa
+}
+@media (min-width: 1200px) { .container {
+  max-width: 1200px;
+
+} }
+
+</style>
+
+	<body background="img/background.png">
+
+		 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
+  <a class="navbar-brand" href="index.html"><h4>Samed Blog</h4></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hakkimda.html">CV</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="sehrim.html">Şehrim</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="iletisim.html">İletişim</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+
+		
+<br>
+<br>
+
+                    <!--Form with header-->
+<div class="container">
+                    <form action="mail.php" method="post">
+                        <div class="card border-primary rounded-0">
+                            <div class="card-header p-0">
+                                <div class="bg-info text-white text-center py-2">
+                                    <h3><i class="fa fa-envelope"></i> İletişim</h3>
+                                    <p class="m-0">Size Memnuniyetle Yardımcı Olacağız</p>
+                                </div>
+                            </div>
+                            <div class="card-body p-3">
+
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ad Ve Soyad" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="örnek@gmail.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Bize Mesajınızı Gönderin" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Gönder" class="btn btn-info btn-block rounded-0 py-2">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+
+  </div>
+
+<br>
+<br>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+<div class="alert badge-dark" role="alert" align="center">
+  &copy; CopyRight 2017-2019 | Tüm Hakları Saklıdır.</div>
+  </body>
+</html>
+
+
